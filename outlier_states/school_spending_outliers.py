@@ -1,6 +1,4 @@
 import os
-import csv
-import math
 
 # filename = "small_dataset.txt"
 filename = "big_dataset.txt"
@@ -11,6 +9,9 @@ too_big = size > 2**30
 
 def process_by_line(name):
     print("Processing by line...")
+    import csv
+    import math
+
     n = r1 = r2 = 0
     outliers = [["Geographic area", "Total"]]
 
